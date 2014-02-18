@@ -1,0 +1,57 @@
+<body>
+    <div id="restau" data-role="page" data-theme="a">
+        <div data-role="header" data-add-back-btn="true">
+            <h1>Restaurant Picker</h1>
+        </div>
+        
+        <div data-role="content">
+            <div class="ui-grid-a" id="restau_infos">
+                <div class="ui-block-a">
+                    <h1>Bistro de Zwaan</h1>
+                    <p><strong>Heerlijk genieten op de hoek van de Markt</strong></p>
+                    <p>Op het menu:</p>
+                    <ul>
+                        <li>Clubsandwich met zalm en roomkaas</li>
+                        <li>Biefstuk met pepersaus</li>
+                        <li>Spaghetti á la maison</li>
+                    </ul>
+                </div>
+                
+                <div class="ui-block-b">
+                    <p><img src="img/restau01.jpg" alt=""></p>
+                    <p><a href="http://www.google.nl" rel="external" data-role="button">Bezoek onze website</a></p>
+                </div>
+            </div>
+            
+            <div class="ui-grid-a" id="contact_infos">
+                <div class="ui-block-a">
+                    <h2>Neem contact op!</h2>
+                    <p>Markt 52</p>
+                    <p>4877PP Etten-Leur</p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/01_maps.jpg" alt="">
+                </div>
+            </div>
+            
+            <div id="contact_buttons">
+                <form>
+                    <input type="button" value="Zoek ons in Google Maps" onclick=window.location="https://maps.google.nl/maps?q=etten-leur&hl=nl&sll=51.525826,5.118902&sspn=1.508884,3.482666&hnear=Etten-Leur,+Noord-Brabant&t=m&z=12"> 
+                    <input type="button" value="Neem contact op!" onclick=window.location="tel:06123456789">
+                </form>
+            </div>
+            <div id="notation">
+                <form>
+                    <label for="select-choice-0" class="select"><h2>User rating</h2></label>
+                    <select name="rating" id="rating" data-native-menu="false" data-theme="b">
+                        <option value="one" class="none">Kies een rating</option>
+                        <option value="one" class="one">Vreselijk</option>
+                        <option value="two" class="two">Ging wel</option>
+                        <option value="three" class="three">Lekker!</option>
+                        <option value="four" class="four">Omnomnomnom!</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant Picker</title>
+    
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div data-role="page" id="home" data-theme="a">
+ 
+<div data-role="content">
+ 
+<div id="branding">
+ 
+<h1>Restaurant Picker </h1>
+ 
+</div>
+ 
+<div class="choice_list">
+ 
+<h1> Wat wil je eten? </h1>
+ 
+    <ul data-role="listview" data-inset="true" id="listFood" >
+         
+    </ul>
+ 
+</div>
+ 
+</div>
+ 
+</div><!--  food page -->
+
+<div data-role="page" id="town">
+
+    <div id="choose_town" data-theme="a" >
+        <div data-role="header" data-add-back-btn="true" >
+            <h1>Restaurant Picker</h1>
+        </div>
+        <div data-role="content">
+            <div class="choice_list">
+                <h1>In welke stad wil je eten?</h1>
+                <ul data-role="listview" data-inset="true" data-filter="true" id="listPlaces">
+                     
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    
+</div>  <!-- town page -->  
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+<div id="restaurant" data-role="page" data-theme="a" >
+        <div data-role="header" data-add-back-btn="true">
+            <h1>Restaurant Picker</h1>
+        </div>
+        <div data-role="content">
+            <div class="choice-list">
+                <ul data-role="listview" data-inset="true" id="listRestaurants">
+               
+                </ul>
+            </div>
+        </div>
+    </div>
